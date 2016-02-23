@@ -24,7 +24,7 @@ import Dotdotdot from 'react-clamp'
 render() {
 	return (
 		<div>
-			<Dotdotdot clamp={3}>
+			<Dotdotdot clamp={3} className="three-line-text-clamp">
 				<p>
 					Long, long <br />
 					content,<br />
