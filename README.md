@@ -1,9 +1,5 @@
 React-dotdotdot
 ================
-Cross-browser multiline text ellipsis for react
-
-<img src="http://dotdotdot.frebsite.nl/img/preview.png" width="100%" border="0" />
-
 
 Inspired by:
 https://github.com/BeSite/jQuery.dotdotdot

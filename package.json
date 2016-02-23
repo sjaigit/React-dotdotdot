@@ -1,6 +1,6 @@
 {
-  "name": "react-dotdotdot",
-  "version": "1.0.3",
+  "name": "react-clamp",
+  "version": "1.0.0",
   "description": "Multiline text ellipsis for react",
   "main": "src/index.js",
   "scripts": {
@@ -8,14 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CezaryDanielNowak/React-dotdotdot.git"
+    "url": "git+https://github.com/vsubbotskyy/React-dotdotdot.git"
   },
-  "author": "Cezary Daniel Nowak",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CezaryDanielNowak/React-dotdotdot/issues"
+    "url": "https://github.com/vsubbotskyy/React-dotdotdot/issues"
   },
-  "homepage": "https://github.com/CezaryDanielNowak/React-dotdotdot#readme",
+  "homepage": "https://github.com/vsubbotskyy/React-dotdotdot#readme",
   "dependencies": {
     "clamp-js": "0.7.0"
   },
