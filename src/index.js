@@ -25,7 +25,8 @@ Dotdotdot.prototype.dotdotdot = function(container) {
 
   clamp(container, {
     clamp: this.props.clamp,
-    truncationChar: this.props.truncationChar
+    truncationChar: this.props.truncationChar,
+    useNativeClamp: this.props.useNativeClamp
   });
 };
 
@@ -46,11 +47,13 @@ Dotdotdot.propTypes = {
     PropTypes.bool
   ]).isRequired,
   truncationChar: PropTypes.string,
-  className: PropTypes.string
+  className: PropTypes.string,
+  useNativeClamp: PropTypes.bool
 };
 
 Dotdotdot.defaultProps = {
-  truncationChar: '\u2026'
+  truncationChar: '\u2026',
+  useNativeClamp: true
 };
 
 module.exports = Dotdotdot;
