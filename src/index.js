@@ -32,7 +32,7 @@ Dotdotdot.prototype.dotdotdot = function(container) {
 
 Dotdotdot.prototype.render = function() {
   return React.createElement(
-    "div",
+    this.props.tagName || "div",
     { ref: "container", className: this.props.className },
     this.props.children
   );
@@ -48,6 +48,7 @@ Dotdotdot.propTypes = {
   ]).isRequired,
   truncationChar: PropTypes.string,
   className: PropTypes.string,
+  tagName: PropTypes.string,
   useNativeClamp: PropTypes.bool
 };
 
