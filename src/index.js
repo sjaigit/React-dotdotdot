@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var clamp = require('clamper');
-var PropTypes = require('prop-types')
+var PropTypes = require('prop-types');
 /**
  * multuline text-overflow: ellipsis
  */
