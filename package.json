@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/vsubbotskyy/React-dotdotdot#readme",
   "dependencies": {
-    "clamper": "1.0.2"
+    "clamper": "~1.0.2",
+    "prop-types": "~15.5.10"
   },
   "peerDependencies": {
     "react": "^0.14.3",
